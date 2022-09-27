@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Modal Popup</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<!----Custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+		<div class="scrollbar" id="style-7">
+				<div class="force-overflow"> 
+<div class="search-sticky">
+<form>
+<input class="search-box" type="text" id="myInput" onkeyup="myFunction()" placeholder="Thai Khmer English" title=""  />
+<button class="close-icon" type="reset">
+</button>
+ </form>
+</div>
+
+<ul id="myUL">
+<div class="tooltip"> <span class="tooltiptext">ជំរាបសួរ / ជំរាបលា</span>
+  <li ><a href="#popup-sawadee" > สวัสดี <span> ជំរាបសួរ ជំរាបលា សួស្ដី	สวัสดีค่ะ สวัสดีครับ หวัดดี </span></a></li></div>
+
+  <div id="popup-sawadee" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+				<div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiosàwàtdee.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>สวัสดี </h2>
+    <hr />
+</div>
+    <p >(សៈវ៉ាត់ឌី)<span > (sà-wàt-dee)</span></p>
+    <p style="font-size: 22px; font-family: Khmer OS, Khmer OS System; color: #073978;"><b>សួស្ដី<br/>ជំរាបសួរ<br/>ជំរាបលា</b><span></span></p>
+    <h3>hi , hello <br/> goodbye , bye</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+  <div class="tooltip"> <span class="tooltiptext">ខ្ញុំ / ឆាន់</span>
+  <li ><a href="#chăn" > ฉัน <span> ខ្ញុំ ឆាន់ i me eat </span></a></li></div>
+  <div id="chăn" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+				<div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiochăn.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>ฉัน</h2>
+    <hr />
+</div>
+    <p >(ឆាន់)<span > (chăn)</span></p>
+    <h4 ><b>ខ្ញុំ <span>(ស្រី/ប្រុស)</span><br/>ឆាន់ <span>(ចង្ហាន់)</span></b><span></span></h4>
+    <h3>I , me <br/> eat</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+  
+  <div class="tooltip"> <span class="tooltiptext">ខ្ញុំ / នាងខ្ញុំ</span>
+  <li ><a href="#dìchăn" > ดิฉัน <span> នាងខ្ញុំ i me </span></a></li></div>
+    <div id="dìchăn" class="popup"> 
+      <div id="wrapper-popup">
+         <div class="scrollbar-popup" id="style-7-popup"> 
+          <div class="force-overflow-popup">
+  <div class="row-popup">
+     <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+        <button class="sound" onclick="audiodìchăn.play();"><i class="fa-solid fa-volume-high"></i></button>
+      <h2>ดิฉัน</h2>
+      <hr />
+  </div>
+      <p >(ឌិឆាន់)<span > (dì-chăn)</span></p>
+      <h4 ><b>ខ្ញុំ / នាងខ្ញុំ <span>(ស្រី) </span> <span> </span></b><span></span></h4>
+      <h3>I , me </h3>
+                      </div>
+               </div>
+       </div>
+  </div>
+  <button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+   <div class="tooltip"> <span class="tooltiptext">ខ្ញុំ / សក់</span>
+  <li ><a href="#pŏm" > ผม <span> ខ្ញុំ សក់ i me hair </span></a></li></div>
+	<div id="pŏm" class="popup"> 
+    <div id="wrapper-popup">
+    <div class="scrollbar-popup" id="style-7-popup"> 
+     <div class="force-overflow-popup">
+<div class="row-popup">
+<button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+   <button class="sound" onclick="audiopŏm.play();"><i class="fa-solid fa-volume-high"></i></button>
+ <h2>ผม</h2>
+ <hr />
+</div>
+ <p >(ផុម)<span > (pŏm)</span></p>
+ <h4 ><b>ខ្ញុំ <span>(ប្រុស) </span> <br/>សក់<span> </span></b><span></span></h4>
+ <h3>I , me <br/> hair</h3>
+                 </div>
+          </div>
+  </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+	 <div class="tooltip"> <span class="tooltiptext">ខ្ញុំ / ខ្ញុំបាទ</span>
+  <li ><a href="#gràpŏm" > กระผม <span> ខ្ញុំ បាទ i me </span></a></li></div>
+  <div id="gràpŏm" class="popup"> 
+    <div id="wrapper-popup">
+    <div class="scrollbar-popup" id="style-7-popup"> 
+     <div class="force-overflow-popup">
+<div class="row-popup">
+<button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+   <button class="sound" onclick="audiogràpŏm.play();"><i class="fa-solid fa-volume-high"></i></button>
+ <h2>กระผม</h2>
+ <hr />
+</div>
+ <p >(ក្រៈផុម)<span > (gràpŏm)</span></p>
+ <h4 ><b>ខ្ញុំ / ខ្ញុំបាទ <span>(ប្រុស) </span><span> </span></b><span></span></h4>
+ <h3>I , me</h3>
+                 </div>
+          </div>
+  </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+  
+ <div class="tooltip"> <span class="tooltiptext">អញ</span>
+  <li ><a href="#goo" > กู <span > ខ្ញុំ អញ i me </span></a></li></div>
+  <div id="goo" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiogoo.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>กู</h2>
+    <hr />
+</div>
+    <p >(គូ)<span > (goo)</span></p>
+    <h4 >អញ<b><span></span> <span> </span></b><span></span></h4>
+    <h3>I , me </h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+<div class="tooltip"> <span class="tooltiptext">យើង	/	ខ្ញុំ</span>
+  <li ><a href="#rao" > เรา <span> យើង ខ្ញុំ we us </span></a></li></div>
+  <div id="rao" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiorao.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>เรา</h2>
+    <hr />
+</div>
+    <p >(រៅ)<span > (rao)</span></p>
+    <h4 >យើង<b><span></span> <span> <br/></span>ខ្ញុំ</b><span></span></h4>
+    <h3>we , us <br/>I , me </h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+  <div class="tooltip"> <span class="tooltiptext">អ្នក	/	លោក</span>
+  <li ><a href="#kun" > คุณ <span> អ្នក លោក you Mr. Mrs. Miss Ms. </span></a></li></div>
+  <div id="kun" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiokun.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>คุณ</h2>
+    <hr />
+</div>
+    <p >(ឃុន)<span > (kun)</span></p>
+    <h4 >អ្នក<b><span></span> <span> <br/></span>លោក</b><span></span></h4>
+    <h3>you<br/> Mr , Miss , Ms , Mrs</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+<div class="tooltip"> <span class="tooltiptext">នាយ	/	លោក</span>
+  <li ><a href="#naai" > นาย <span style="font-family: Khmer OS; font-size: 0px;"> លោក នាយ អ្នក you Mr.</span></a></li></div>
+  <div id="naai" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audionaai.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>นาย</h2>
+    <hr />
+</div>
+    <p >(ណាយ)<span > (naai)</span></p>
+    <h4 >អ្នក<b><br/><span></span>លោក <span> <br/></span></b>នាយ<span></span></h4>
+    <h3>you<br/> Mr.</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+<div class="tooltip"> <span class="tooltiptext">ឯង	/	ហែង</span>
+  <li ><a href="#meung" > มึง <span style="font-family: Khmer OS; font-size: 0px;"> ឯង ហែង អ្នក you </span></a></li></div>
+  <div id="meung" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiomeung.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>มึง</h2>
+    <hr />
+</div>
+    <p >(មឹង)<span > (meung)</span></p>
+    <h4 >ហែង<b><br/><span></span>ឯង <span> <br/></span></b><span></span></h4>
+    <h3>you</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+  <div class="tooltip"> <span class="tooltiptext">ឯង	/	គេ	/	គាត់</span>
+  <li ><a href="#gae" > แก <span style="font-family: Khmer OS; font-size: 0px;"> ឯង គេ អ្នក គាត់ you he she </span></a></li></div>
+  <div id="gae" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audiogae.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>แก</h2>
+    <hr />
+</div>
+    <p >(គែ)<span > (gae)</span></p>
+    <h4 >ឯង<b><br/><span></span>គេ <span> <br/></span></b>គាត់<span></span></h4>
+    <h3>you<br/>he , him <br/> she , her</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+    <div class="tooltip"> <span class="tooltiptext">នាង / ឯង /	អ្នក</span>
+  <li ><a href="#ter" > เธอ <span style="font-family: Khmer OS; font-size: 0px;"> ឯង នាង អ្នក you her	she </span></a></li></div>
+  <div id="ter" class="popup"> 
+    <div id="wrapper-popup">
+       <div class="scrollbar-popup" id="style-7-popup"> 
+        <div class="force-overflow-popup">
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audioter.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h2>เธอ</h2>
+    <hr />
+</div>
+    <p >(ធើ)<span > (ter)</span></p>
+    <h4 >នាង<b><br/><span></span>អ្នក  / ឯង<span> <br/></span></b>អូន / បង<span></span></h4>
+    <h3>she , her<br/>you</h3>
+                    </div>
+             </div>
+     </div>
+</div>
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+  <div class="tooltip"> <span class="tooltiptext">គេ	/	គាត់</span>
+  <li ><a href="https://koy2023.github.io/page12/" > เขา <span style="font-family: Khmer OS; font-size: 0px;"> គេ គាត់ he she </span></a></li></div>
+
+<div class="tooltip"> <span class="tooltiptext">ស្រលាញ់</span>
+  <li ><a href="https://koy2023.github.io/page13/" > รัก <span style="font-family: Khmer OS; font-size: 0px;"> ស្រលាញ់ ฮัก love </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ចូលចិត្ត</span>
+  <li ><a href="https://koy2023.github.io/page14/" > ชอบ <span style="font-family: Khmer OS; font-size: 0px;"> ចូលចិត្ត มัก like </span></a></li></div>
+   
+  <div class="tooltip"> <span class="tooltiptext">ទទួលខុសត្រួវ</span>
+  <li ><a href="#popup-rappitchop" > รับผิดชอบ <span style="font-family: Khmer OS; font-size: 0px;"> ទទួលខុសត្រូវ responsible </span></a></li></div>
+  
+  <div id="popup-rappitchop" class="popup">
+    
+    <div id="wrapper-popup">
+       
+		<div class="scrollbar-popup" id="style-7-popup">
+        
+				<div class="force-overflow-popup">
+
+<div class="row-popup">
+   <button class="close"  > <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a></button>
+      <button class="sound" onclick="audio.play();"><i class="fa-solid fa-volume-high"></i></button>
+    <h3>รับผิดชอบ</h3>
+    <hr />
+</div>
+    <p >(រ៉ាប់ភិតឆប)<span > (ráp pìt chôp)</span></p>
+     <p style="font-size: 22px; font-family: Khmer OS, Khmer OS System; color: #073978;"><b>ទំនួលខុសត្រូវ<br/>ទទួលខុសត្រូវ</b><span></span></p>
+    <h3 style=" color:#A7061A;">responsible </h3>
+  
+                    </div>
+             </div>
+     </div>
+</div>
+ 
+<button class="close-popup"><a href="#" class="close-popup"></a></button>
+
+
+
+  <div class="tooltip"> <span class="tooltiptext">ស្អប់</span>
+  <li ><a href="https://koy2023.github.io/page16/" > เกลียด <span style="font-family: Khmer OS; font-size: 0px;"> ស្អប់ hate </span></a></li></div>
+  
+ <div class="tooltip"> <span class="tooltiptext">ទៅ</span>
+  <li ><a href="https://koy2023.github.io/page17/" > ไป <span style="font-family: Khmer OS; font-size: 0px;"> go ទៅ </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">មក</span>
+  <li ><a href="https://koy2023.github.io/page18/" > มา <span style="font-family: Khmer OS; font-size: 0px;"> មក come </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ស៊ី	/	ញ៉ាំ</span>
+  <li ><a href="https://koy2023.github.io/page19/" > กิน <span style="font-family: Khmer OS; font-size: 0px;"> ស៊ី ញ៉ាំ eat </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">គេង	/	ដេក</span>
+  <li ><a href="https://koy2023.github.io/page21/" > นอน <span style="font-family: Khmer OS; font-size: 0px;"> ដេក គេង sleep </span></a></li></div>
+  <div class="tooltip"> <span class="tooltiptext">ងងុយ</span>
+  <li ><a href="https://koy2023.github.io/page22/" > ง่วง <span style="font-family: Khmer OS; font-size: 0px;"> ងងុយគេង ងងុយដេក sleepy </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ដើរ</span>
+  <li ><a href="https://koy2023.github.io/page23/" > เดิน <span style="font-family: Khmer OS; font-size: 0px;"> ដើរ walk </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">ការងារ / ពិធី</span>
+  <li ><a href="https://koy2023.github.io/page24/" > งาน <span style="font-family: Khmer OS; font-size: 0px;"> ការងារ ពិធី work job event festival	ceremeny </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">រៀបការ / មង្គលការ</span>
+  <li ><a href="https://koy2023.github.io/page25/"> แต่งงาน <span style="font-family: Khmer OS; font-size: 0px;"> រៀបការ មង្គលការ marry married អាពាហ៍ពិពាហ៍ </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ការ	/	ការងារ</span>
+  <li ><a href="https://koy2023.github.io/page26/" > การ <span style="font-family: Khmer OS; font-size: 0px;"> ការ ការងារ work </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext"> ទីផ្សារ	</span>
+  <li ><a href="https://koy2023.github.io/page27/" > การตลาด <span style="font-family: Khmer OS; font-size: 0px;"> ទីផ្សារ marketing </span></a></li></div>
+  <div class="tooltip"> <span class="tooltiptext"> ផ្សារ </span>
+  <li ><a href="https://koy2023.github.io/page28/" > ตลาด <span style="font-family: Khmer OS; font-size: 0px;"> ផ្សារ market </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">ល្អ	</span>
+  <li ><a href="https://koy2023.github.io/page29/" > ดี <span style="font-family: Khmer OS; font-size: 0px;"> ល្អ good nice </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ចិត្ត</span>
+  <li ><a href="https://koy2023.github.io/page32/" > ใจ <span style="font-family: Khmer OS; font-size: 0px;"> ចិត្ត បេះដូង heart mind</span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ចិត្តល្អ</span>
+  <li ><a href="https://koy2023.github.io/page31/" > ใจดี <span style="font-family: Khmer OS; font-size: 0px;"> ចិត្តល្អ kind generous </span></a></li></div>
+  <div class="tooltip"> <span class="tooltiptext">សប្បាយចិត្ត /រីករាយ</span>
+  <li ><a href="https://koy2023.github.io/page30/" > ดีใจ <span style="font-family: Khmer OS; font-size: 0px;"> សប្បាយចិត្ត រីករាយ glad happy pleased </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">តា	/	ភ្នែក</span>
+  <li ><a href="https://koy2023.github.io/page33/" > ตา <span style="font-family: Khmer OS; font-size: 0px;"> ភ្នែក តា eye grandfather 	 </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">តា</span>
+  <li ><a href="https://koy2023.github.io/page34/" > ปู่ <span style="font-family: Khmer OS; font-size: 0px;"> តា grandfather grandpa </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">យាយ</span>
+  <li ><a href="https://koy2023.github.io/page35/" > ยาย <span style="font-family: Khmer OS; font-size: 0px;"> យាយ grandmother grandma granny </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">យាយ</span>
+  <li ><a href="https://koy2023.github.io/page36/" > ย่า <span style="font-family: Khmer OS; font-size: 0px;"> យាយ grandmother grandma granny</span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ម៉ែ	/	ម្ដាយ</span>
+  <li ><a href="https://koy2023.github.io/page37/" > แม่ <span style="font-family: Khmer OS; font-size: 0px;"> ម៉ែ ម៉ាក់ ម្ដាយ mother mommy mummy </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ឪពុក	/	ប៉ា</span>
+  <li ><a href="https://koy2023.github.io/page38/" > พ่อ <span style="font-family: Khmer OS; font-size: 0px;"> ឪពុក ប៉ា father daddy </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">គិត	/	ពិចារណា</span>
+  <li ><a href="https://koy2023.github.io/page39/" > คิด <span style="font-family: Khmer OS; font-size: 0px;"> គិត ពិចារណ think consider calculate </span></a></li></div>
+  
+  <div class="tooltip"> <span class="tooltiptext">ដល់ /	ទោះបីជា</span>
+  <li ><a href="https://koy2023.github.io/page40/" > ถึง <span style="font-family: Khmer OS; font-size: 0px;"> ដល់ ទោះបីជា arrive reach even though </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">នឹក / គិតដល់</span>
+  <li ><a href="https://koy2023.github.io/page41/" > คิดถึง <span style="font-family: Khmer OS; font-size: 0px;"> នឹកដល់ គិតដល់ miss think คิดฮอด </span></a></li></div>
+  
+    <div class="tooltip"> <span class="tooltiptext">នឹក / គិត</span>
+  <li ><a href="https://koy2023.github.io/page42/" > นึก <span style="font-family: Khmer OS; font-size: 0px;"> នឹកដល់ គិតដល់ think consider </span></a></li></div>
+  
+   <div class="tooltip"> <span class="tooltiptext">នឹក / គិត</span>
+  <li ><a href="https://koy2023.github.io/page43/" > หัว <span style="font-family: Khmer OS; font-size: 0px;"> នឹកដល់ គិតដល់ think consider </span></a></li></div>
+</ul>
+				</div>
+		</div>
+       
+</div>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
